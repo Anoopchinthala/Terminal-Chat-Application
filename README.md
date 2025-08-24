@@ -9,16 +9,16 @@ A simple Java WebSocket-based chat application with support for multiple clients
 - Maven project for easy build & run
 
 # Project Structure
-src/main/java/com/chatapp/
-│── Client.java           # Client-side WebSocket handler
-│── Server.java           # Server setup (WebSocket)
-│── Serverendpoint.java   # WebSocket endpoint (handles messages)
-│── Database.java         # Handles SQLite operations
-│── Main.java             # Entry point
-│── Data.sql              # Database schema / setup
-pom.xml                   # Maven dependencies
-Commands.txt              # Helper commands
-requirements.txt          # Requirements to this project
+src/main/java/com/chatapp/ <br>
+│── Client.java           # Client-side WebSocket handler <br>
+│── Server.java           # Server setup (WebSocket) <br>
+│── Serverendpoint.java   # WebSocket endpoint (handles messages) <br>
+│── Database.java         # Handles SQLite operations <br>
+│── Main.java             # Entry point <br>
+│── Data.sql              # Database schema / setup <br>
+pom.xml                   # Maven dependencies <br>
+Commands.txt              # Helper commands <br>
+requirements.txt          # Requirements to this project <br>
 
 ## Requirements
 - Java 11 or higher
