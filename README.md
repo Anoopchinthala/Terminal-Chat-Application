@@ -48,7 +48,7 @@ Type messages in terminal and chat in real-time
 
 ## Database
 
-All chat messages are saved in SQLite (Data.sql).
+- All chat messages are saved in SQLite (Data.sql).
 To view messages:
     ```bash
     SELECT * FROM messages;
