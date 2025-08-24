@@ -1,0 +1,22 @@
+
+## Compile
+mvn clean compile
+
+## To Run the WebSocket Server:
+mvn exec:java@server
+
+## To Run the Terminal Client: (New Terminal)
+mvn exec:java@client
+
+## MySQL Previous messages
+- mysql -u root -p        (?? remember password)
+- USE chat_app; (If external terminal is used)
+- SHOW TABLES; DESCRIBE messages; (Optional)
+-  SELECT * FROM messages ORDER BY id;
+or
+- SELECT sender, message, timestamp 
+FROM messages 
+ORDER BY timestamp DESC 
+LIMIT 10;
+- DELETE FROM messages; (deleting messages)
+- exit; (to exit mysql)

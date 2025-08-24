@@ -25,3 +25,30 @@ requirements.txt          # Requirements to this project
 - Maven
 - SQLite
 
+## How to Run
+
+1) Clone the repo:
+    ```bash 
+    git clone https://github.com/Anoopchinthala/Terminal-Chat-Application.git
+    cd Terminal-Chat-Application
+
+2) Build the project:
+    ```bash
+    mvn clean package
+
+3) Start the Server:
+    ```bash
+    mvn exec:java@server
+
+4) Start a Client:
+    ```bash
+    mvn exec:java@client
+
+Type messages in terminal and chat in real-time 
+
+## Database
+
+All chat messages are saved in SQLite (Data.sql).
+To view messages:
+    ```bash
+    SELECT * FROM messages;
